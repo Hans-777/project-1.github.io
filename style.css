@@ -1,0 +1,286 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+div.menu{
+    padding: 45px 0 10px 0;
+    text-align: center;
+    background-color: black;
+}
+
+div.menu a{
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+    padding: 10px 20px 14px 20px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+div.menu a:hover{
+    background-color: white;
+    color: black;
+}
+
+div.menu a.agreen{
+    font-size: 24px;
+    padding: 10px 25px 14px 25px;
+}
+
+div.menu a.agreen:hover{
+    background-color: rgb(74, 199, 16);
+    color: white;
+}
+
+div.menu span{
+    font-weight: 700;
+    vertical-align: middle;
+}
+
+label{
+    font-size: 9px;
+    vertical-align: top;
+}
+
+
+div.banner{
+    background-image: url("img/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.banner h1{
+    text-align: center;
+    color: white;
+    padding: 240px 0;
+    background-color: rgba(0, 0, 0, 0.597);
+}
+
+div.license{
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+div.license h1{
+    text-align: center;
+    margin: 20px 0;
+}
+
+div.license img{
+    width: 550px;
+    height: 300px;
+    opacity: 0.9;
+}
+
+div.license p{
+    line-height: 170%;
+    word-spacing: 1px;
+    text-align: justify;
+}
+
+div.left{
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    margin: 30px 15px;
+}
+
+div.right{
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    margin: 30px 15px;    
+}
+
+div.license a{
+    margin: 30px 0;
+    display: block;
+    text-align: center;
+    padding: 15px 19px;
+    text-decoration: none;
+    background-color: gray;
+    width: 190px;
+    color: white;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+div.license a:hover{
+    background-color: rgb(164, 164, 164);
+}
+
+div.options{
+    text-align: center;
+    background-color: gainsboro;
+    padding: 20px 0;
+    line-height: 170%;
+}
+
+div.options h1{
+    margin: 30px 0;
+}
+
+div.options h4{
+    font-size: 25px;
+    margin: 15px 0;
+}
+
+div.opt1{
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+}
+
+div.opt2{
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+}
+
+div.opt3{
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+}
+
+div.banner2{
+    background-image: url("img/image1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.banner2 h1{
+    padding: 100px 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.849);
+    color: white;
+}
+
+div.coremsure{
+    text-align: center;
+    background-color: gainsboro;
+    padding: 20px 0;
+    line-height: 170%;
+    background-color: darkcyan;
+    color: white;
+}
+
+div.coremsure h1{
+    margin: 30px 0;
+}
+
+div.coremsure h4{
+    font-size: 25px;
+    margin: 15px 0;
+}
+
+div.coremsure p.program{
+    width: 60%;
+    margin: 20px auto;
+}
+
+div.coremsure a{
+    text-align: center;
+    display: block;
+    width: 160px;
+    margin: 10px auto;
+    text-decoration: none;
+    background-color: gray;
+    padding: 15px 19px;
+    width: 190px;
+    color: white;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+div.coremsure a:hover{
+    background-color: rgb(164, 164, 164);
+}
+
+div.corem{
+    padding: 30px 0 80px 0;
+    text-align: center;
+}
+
+div.corem h1{
+    width: 80%;
+    margin: 40px auto;
+}
+
+div.corem a{
+    text-align: center;
+    width: 160px;
+    margin: 10px;
+    text-decoration: none;
+    background-color: gray;
+    padding: 15px 19px;
+    width: 190px;
+    color: white;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+div.corem a:hover{
+    background-color: rgb(164, 164, 164);
+}
+
+div.end{
+    padding: 50px 0;
+    text-align: center;
+    background-color: gainsboro;
+}
+
+div.end a{
+    display: block;
+}
+
+div.end1{
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+}
+
+div.end2{
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+}
+
+div.end3{
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+}
+
+div.end4{
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+}
+
+div.end a{
+    text-decoration: none;
+    color: gray;
+    margin: 9px;
+}
+
+div.end a:hover{
+    text-decoration: underline;
+}
+
+h1.give{
+    font-size: 140px;
+    padding: 200px 0;
+    text-align: center;
+}
